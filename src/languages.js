@@ -1,9 +1,11 @@
 import React from 'react';
 
-class Language extends React.Component{
+class Languages extends React.Component{
     render(){
         return(
-            
+
         );
     }
 }
+
+export default Languages;
