@@ -19,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <h1>List of Languages</h1>
+        <Languages />
       </header>
     </div>
   );
