@@ -20,7 +20,15 @@ function App() {
           Learn React
         </a>
         <h1>List of Languages</h1>
-        <Languages />
+        <div className="language">
+         
+          <Languages
+            name='HTML & CSS'
+            image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg'
+          />
+          
+        </div>
+         
       </header>
     </div>
   );
