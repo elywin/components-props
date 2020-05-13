@@ -8,9 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+       
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -25,6 +23,16 @@ function App() {
           <Languages
             name='HTML & CSS'
             image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg'
+          />
+           <Languages 
+            name = 'JavaScript'
+            image = 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/es6.svg'
+            
+          />
+          {/* add props for React */}
+          <Languages 
+            name = 'React'
+            image = 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/react.svg'
           />
           
         </div>
