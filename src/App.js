@@ -24,12 +24,12 @@ function App() {
             name='HTML & CSS'
             image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg'
           />
+
            <Languages 
             name = 'JavaScript'
             image = 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/es6.svg'
-            
           />
-          {/* add props for React */}
+
           <Languages 
             name = 'React'
             image = 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/react.svg'
